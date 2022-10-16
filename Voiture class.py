@@ -26,7 +26,7 @@ def loop():
     y_change=0
     policecar_speed=100 
     police=0   
-    police_startx=random.randrange(130,(700-car_width))
+    police_startx=random.randrange(300,(700-car_width))
     police_starty=-600
     police_width=23
     police_height=47
