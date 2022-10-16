@@ -143,7 +143,7 @@ def loop():
         policecar(police_startx,police_starty,police) 
         police_starty+=policecar_speed         
         car(x,y)   
-        if x<300 or x>1100-car_width:       
+        if x<300 or x>1050-car_width:       
             crash()
 
         if police_starty>800:     
